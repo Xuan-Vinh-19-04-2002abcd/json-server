@@ -45,7 +45,7 @@ app.post('/send-email', (req, res) => {
 
 app.use('/', router); // Mount the JSON Server router under '/api' endpoint
 
-const port = 8000; // Port for the server
+const port = 3000; // Port for the server
 app.listen(port, () => {
   console.log(`Server is running on http://localhost:${port}`);
 });
